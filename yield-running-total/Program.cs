@@ -26,9 +26,9 @@ public static IEnumerable<int> RunningTotal()
         {
 
         
-            foreach (int e in RunningTotal())
+            foreach (int x in RunningTotal())
             {
-                Console.WriteLine(e);
+                Console.WriteLine(x);
             }
 
             Console.Read();
